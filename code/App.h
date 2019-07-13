@@ -18,8 +18,9 @@ int dir = 0;
 float mapWidth, mapHeight, mapHalfWidth, mapHalfHeight;
 
 // std::vector<Block*> grid;
-std::vector<TexRect*> map;
+std::vector<Rect*> map;
 std::vector<TexRect*> obstacle;
+
 
 // Game editor stuff:
 std::vector<Rect*> mapMaking;
@@ -30,6 +31,7 @@ float rectHeight, rectWidth;
 bool black = true;
 bool m1 = false;
 float m1x, m1y;
+
 TexRect* mushroom;
 // Rect* projectile;
 AnimatedRect* explosion;
